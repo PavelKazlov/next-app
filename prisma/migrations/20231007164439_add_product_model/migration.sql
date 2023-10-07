@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE `Product` (
-    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `id` VARCHAR(191) NOT NULL,
     `name` VARCHAR(191) NOT NULL,
     `price` DOUBLE NOT NULL,
 
